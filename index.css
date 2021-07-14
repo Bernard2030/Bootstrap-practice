@@ -1,0 +1,80 @@
+/* Container holding the image and the text */
+.container1 {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+/* Top left text */
+.top-left1 {
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+
+/* Top right text */
+.top-right1 {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  display: inline-flex;
+}
+/* Centered text */
+.centered1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: x-large;
+  font-weight: 500;
+}
+.p1{
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+.sectionOne p{
+  color: white;
+  font-size: 20px;
+  text-align: center;
+}
+.sectionOne p i{
+  font-size: 50px;
+  margin: 250px;
+}
+nav ul {
+  float: right;
+  margin-right: 30px;
+}
+nav ul li{
+  display: inline;
+  margin: 0 40px;
+  font-size: large;
+}
+nav ul li a{
+  color: white;
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.products{
+  height: 50px;
+  background-color: rgb(70, 9, 9);
+  color: white;
+  padding: 10px;
+  border-radius: 3px;
+  margin-left: 800px;
+}
+.products a{
+  text-decoration: none;
+  color: white;
+}
+.two{
+  height: 120px;
+  background: rgb(202, 196, 160);
+  display: flex;
+  padding-top: 60px;
+  padding-left: 30px;
+  font-size: 18px;
+}
+/* products */
+
+
